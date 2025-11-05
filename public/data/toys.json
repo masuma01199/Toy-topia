@@ -1,0 +1,74 @@
+[
+  {
+    "toyId": 1,
+    "toyName": "Lego Classic Bricks",
+    "sellerName": "Toys R Us Local",
+    "sellerEmail": "contact@toysruslocal.com",
+    "price": 78.99,
+    "rating": 4.1,
+    "availableQuantity": 75,
+    "description": "A timeless set of colorful Lego bricks that encourages creativity and problem-solving. Perfect for young builders.",
+    "pictureURL": "/assets/images/toy-7.jpg",
+    "subCategory": "Building Blocks"
+  },
+  {
+    "toyId": 2,
+    "toyName": "Plush Teddy Bear",
+    "sellerName": "Cuddles Shop",
+    "sellerEmail": "hello@cuddles.shop",
+    "price": 42.99,
+    "rating": 4.2,
+    "availableQuantity": 120,
+    "description": "A soft, huggable teddy bear made from premium materials. The perfect companion for nap time and playtime.",
+    "pictureURL": "/assets/images/toy-2.jpg",
+    "subCategory": "Plush Toys"
+  },
+  {
+    "toyId": 3,
+    "toyName": "Wooden Train Set",
+    "sellerName": "Tiny Tracks",
+    "sellerEmail": "info@tinytracks.com",
+    "price": 49.5,
+    "rating": 4.5,
+    "availableQuantity": 45,
+    "description": "A classic wooden train set with magnetic cars and colorful tracks that inspire imaginative play.",
+    "pictureURL": "/assets/images/toy-3.jpg",
+    "subCategory": "Wooden Toys"
+  },
+  {
+    "toyId": 4,
+    "toyName": "Barbie Dream Doll",
+    "sellerName": "Doll House",
+    "sellerEmail": "support@dollhouse.com",
+    "price": 48.99,
+    "rating": 4.3,
+    "availableQuantity": 60,
+    "description": "A fashionable Barbie doll with accessories and outfits, encouraging creativity and storytelling.",
+    "pictureURL": "/assets/images/toy-4.jpg",
+    "subCategory": "Dolls"
+  },
+  {
+    "toyId": 5,
+    "toyName": "Remote Control Car",
+    "sellerName": "Speedy Toys",
+    "sellerEmail": "sales@speedytoys.com",
+    "price": 24.99,
+    "rating": 4.7,
+    "availableQuantity": 90,
+    "description": "High-speed remote control car with rechargeable batteries. Great for both indoor and outdoor fun.",
+    "pictureURL": "/assets/images/toy-5.jpg",
+    "subCategory": "Electronics"
+  },
+  {
+    "toyId": 6,
+    "toyName": "Kids Kitchen Set",
+    "sellerName": "Little Chefs",
+    "sellerEmail": "kitchen@littlechefs.com",
+    "price": 49.99,
+    "rating": 4.6,
+    "availableQuantity": 50,
+    "description": "Miniature kitchen playset with utensils and toy food. Inspires creativity and role-playing fun.",
+    "pictureURL": "/assets/images/toy-6.jpg",
+    "subCategory": "Pretend Play"
+  }
+]

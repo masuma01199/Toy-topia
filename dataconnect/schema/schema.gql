@@ -1,0 +1,47 @@
+type User @table {
+  username: String! @unique
+  email: String! @unique
+  passwordHash: String!
+  createdAt: Timestamp!
+  displayName: String
+  profilePictureUrl: String
+}
+
+type Category @table {
+  name: String! @unique
+}
+
+type Subcategory @table {
+  name: String!
+  category: Category!
+}
+
+type Toy @table {
+  name: String!
+  price: Float!
+  description: String!
+  imageUrl: String!
+  quantityInStock: Int!
+  createdAt: Timestamp!
+  sellerInfo: String
+}
+
+type ToySubcategory @table(key: ["toy", "subcategory"]) {
+  toy: Toy!
+  subcategory: Subcategory!
+}
+
+type FavoriteToy @table(key: ["user", "toy"]) {
+  user: User!
+  toy: Toy!
+  addedAt: Timestamp!
+}
+
+type ToyRequest @table {
+  user: User!
+  requestedToyName: String!
+  requestDate: Timestamp!
+  status: String!
+  details: String
+  toyLink: String
+}
