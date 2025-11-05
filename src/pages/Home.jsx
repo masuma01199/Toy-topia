@@ -24,7 +24,7 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {toys.slice(0, 6).map((toy) => (
+            {toys.slice(0, 8).map((toy) => (
               <div
                 key={toy.toyId}
                 className="transform hover:-translate-y-2 transition-transform duration-300"

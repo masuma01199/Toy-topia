@@ -9,9 +9,9 @@ import Slide3 from "../assets/images/slide3.jpg";
 
 export default function Slider() {
   const slides = [
-    { id: 1, title: "Couple Showpice", img: Slide1 },
-    { id: 2, title: "Soft Plush Toys", img: Slide2 },
-    { id: 3, title: "Outdoor Fun", img: Slide3 },
+    { id: 1, title: "Showpice", img: Slide1 },
+    { id: 2, title: "Dolls", img: Slide2 },
+    { id: 3, title: "Boy Toys", img: Slide3 },
   ];
 
   return (
