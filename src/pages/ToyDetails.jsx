@@ -8,14 +8,17 @@ export default function ToyDetails() {
   const [form, setForm] = useState({ name: "", email: "" });
 
   useEffect(() => {
-    fetch("/data/toys.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const foundToy = data.find((t) => String(t.toyId) === String(id));
-        setToy(foundToy);
-      })
-      .catch((err) => console.error(err));
-  }, [id]);
+  console.log("Route ID:", id);
+  fetch("/data/toys.json")
+    .then((res) => res.json())
+    .then((data) => {
+      console.log("Fetched Toys:", data);
+      const foundToy = data.find((t) => String(t.toyId) === String(id));
+      console.log("Found Toy:", foundToy);
+      setToy(foundToy);
+    })
+    .catch((err) => console.error(err));
+}, [id]);
 
   const handleSubmit = (e) => {
     e.preventDefault();

@@ -45,7 +45,7 @@ const Footer = () => {
                 <ul className="mt-4 space-y-4">
                   <li><Link to="/all-toys" className="text-base text-gray-400 hover:text-white">All Toys</Link></li>
                   <li><Link to="/add-toy" className="text-base text-gray-400 hover:text-white">Add a Toy</Link></li>
-                  <li><Link to="/my-profile" className="text-base text-gray-400 hover:text-white">My Profile</Link></li>
+                  <li><Link to="/profile" className="text-base text-gray-400 hover:text-white">My Profile</Link></li>
                 </ul>
               </div>
               <div className="mt-12 md:mt-0">

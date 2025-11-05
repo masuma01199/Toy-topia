@@ -19,7 +19,7 @@ return (
 <main className="flex-1">
 <Routes>
 <Route path="/" element={<Home />} />
-<Route path="/toy/:id" element={<ProtectedRoute><ToyDetails /></ProtectedRoute>} />
+<Route path="/toy/:id" element={<ToyDetails />} />
 <Route path="/login" element={<Login />} />
 <Route path="/register" element={<Register />} />
 <Route path="/profile" element={<ProtectedRoute><MyProfile /></ProtectedRoute>} />
